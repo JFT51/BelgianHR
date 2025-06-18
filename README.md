@@ -1,0 +1,1 @@
+### See ChatGPT output for full README contents.

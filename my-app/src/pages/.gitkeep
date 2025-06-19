@@ -1,0 +1,8 @@
+create_file_with_block
+my-app/src/data/.gitkeep
+
+create_file_with_block
+my-app/src/assets/.gitkeep
+
+create_file_with_block
+my-app/src/styles/.gitkeep

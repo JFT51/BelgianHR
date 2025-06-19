@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c1",
+    "employeeId": "1",
+    "contractType": "Full-time",
+    "startDate": "2023-01-15",
+    "endDate": null,
+    "salary": "50000 EUR",
+    "documentLink": "/assets/documents/contract_alice.pdf"
+  },
+  {
+    "id": "c2",
+    "employeeId": "2",
+    "contractType": "Part-time",
+    "startDate": "2023-06-01",
+    "endDate": "2024-05-31",
+    "salary": "20 EUR/hour",
+    "documentLink": "/assets/documents/contract_bob.pdf"
+  },
+  {
+    "id": "c3",
+    "employeeId": "3",
+    "contractType": "Flexi-job",
+    "startDate": "2024-01-01",
+    "endDate": null,
+    "salary": "15 EUR/hour",
+    "documentLink": "/assets/documents/contract_charlie.pdf"
+  },
+  {
+    "id": "c4",
+    "employeeId": "4",
+    "contractType": "Student",
+    "startDate": "2023-09-01",
+    "endDate": "2024-08-31",
+    "salary": "12 EUR/hour",
+    "documentLink": "/assets/documents/contract_diana.pdf"
+  }
+]

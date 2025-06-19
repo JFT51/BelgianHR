@@ -1,0 +1,53 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import EmployerDashboard from './pages/employer/Dashboard';
+import EmployeeManagement from './pages/employer/EmployeeManagement';
+import ShiftPlanning from './pages/employer/ShiftPlanning';
+import TimeAttendance from './pages/employer/TimeAttendance';
+import LeaveApproval from './pages/employer/LeaveApproval';
+import ContractOverview from './pages/employer/ContractOverview';
+import Notifications from './pages/employer/Notifications';
+import EmployeeSchedule from './pages/employee/Schedule';
+import TimeClock from './pages/employee/TimeClock';
+import Availability from './pages/employee/Availability';
+import LeaveRequest from './pages/employee/LeaveRequest';
+import Profile from './pages/employee/Profile';
+import './App.css';
+
+function App() {
+  return (
+    <Router>
+      <div>
+        <nav className="bg-gray-800 p-4 text-white">
+          <ul className="flex space-x-4">
+            <li><Link to="/employer/dashboard">Employer Dashboard</Link></li>
+            <li><Link to="/employee/schedule">Employee Schedule</Link></li>
+          </ul>
+        </nav>
+        <div className="p-4">
+          <Routes>
+            {/* Employer Routes */}
+            <Route path="/employer/dashboard" element={<EmployerDashboard />} />
+            <Route path="/employer/employees" element={<EmployeeManagement />} />
+            <Route path="/employer/planning" element={<ShiftPlanning />} />
+            <Route path="/employer/attendance" element={<TimeAttendance />} />
+            <Route path="/employer/leave-approval" element={<LeaveApproval />} />
+            <Route path="/employer/contracts" element={<ContractOverview />} />
+            <Route path="/employer/notifications" element={<Notifications />} />
+
+            {/* Employee Routes */}
+            <Route path="/employee/schedule" element={<EmployeeSchedule />} />
+            <Route path="/employee/time-clock" element={<TimeClock />} />
+            <Route path="/employee/availability" element={<Availability />} />
+            <Route path="/employee/leave-request" element={<LeaveRequest />} />
+            <Route path="/employee/profile" element={<Profile />} />
+
+            <Route path="/" element={<div><h1>Welcome to Belgian HR Navigator</h1><p>Select a view from the navigation.</p></div>} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
+export default App;

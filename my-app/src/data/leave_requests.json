@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lr001",
+    "employeeId": "1",
+    "employeeName": "Alice Wonderland",
+    "leaveType": "Annual Leave",
+    "startDate": "2024-04-01",
+    "endDate": "2024-04-05",
+    "reason": "Vacation with family.",
+    "status": "Pending",
+    "requestedDate": "2024-03-10"
+  },
+  {
+    "id": "lr002",
+    "employeeId": "2",
+    "employeeName": "Bob The Builder",
+    "leaveType": "Sick Leave",
+    "startDate": "2024-03-15",
+    "endDate": "2024-03-15",
+    "reason": "Feeling unwell.",
+    "status": "Pending",
+    "requestedDate": "2024-03-15"
+  },
+  {
+    "id": "lr003",
+    "employeeId": "4",
+    "employeeName": "Diana Prince",
+    "leaveType": "Unpaid Leave",
+    "startDate": "2024-05-01",
+    "endDate": "2024-05-10",
+    "reason": "Personal commitment.",
+    "status": "Approved",
+    "requestedDate": "2024-02-20",
+    "approvedBy": "Admin",
+    "approvedDate": "2024-02-22"
+  },
+  {
+    "id": "lr004",
+    "employeeId": "1",
+    "employeeName": "Alice Wonderland",
+    "leaveType": "Sick Leave",
+    "startDate": "2024-03-20",
+    "endDate": "2024-03-21",
+    "reason": "Flu.",
+    "status": "Rejected",
+    "requestedDate": "2024-03-19",
+    "rejectedBy": "Admin",
+    "rejectedDate": "2024-03-19",
+    "rejectionReason": "Insufficient notice for planned work."
+  },
+  {
+    "id": "lr005",
+    "employeeId": "3",
+    "employeeName": "Charlie Brown",
+    "leaveType": "Flexi Time Off",
+    "startDate": "2024-03-25",
+    "endDate": "2024-03-25",
+    "reason": "Personal appointment.",
+    "status": "Pending",
+    "requestedDate": "2024-03-18"
+  }
+]

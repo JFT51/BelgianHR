@@ -1,0 +1,34 @@
+[
+  {
+    "id": "s1",
+    "employeeId": "1",
+    "date": "2024-03-04",
+    "startTime": "09:00",
+    "endTime": "17:00",
+    "department": "HR"
+  },
+  {
+    "id": "s2",
+    "employeeId": "2",
+    "date": "2024-03-04",
+    "startTime": "10:00",
+    "endTime": "14:00",
+    "department": "Maintenance"
+  },
+  {
+    "id": "s3",
+    "employeeId": "1",
+    "date": "2024-03-05",
+    "startTime": "09:00",
+    "endTime": "17:00",
+    "department": "HR"
+  },
+  {
+    "id": "s4",
+    "employeeId": "4",
+    "date": "2024-03-05",
+    "startTime": "13:00",
+    "endTime": "18:00",
+    "department": "Justice League"
+  }
+]

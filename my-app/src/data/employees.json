@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "name": "Alice Wonderland",
+    "contractType": "Full-time",
+    "status": "Active",
+    "email": "alice.wonderland@example.com",
+    "phone": "123-456-7890",
+    "department": "HR",
+    "role": "HR Manager",
+    "profilePicture": "/assets/images/alice.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Bob The Builder",
+    "contractType": "Part-time",
+    "status": "Active",
+    "email": "bob.builder@example.com",
+    "phone": "234-567-8901",
+    "department": "Maintenance",
+    "role": "Handyman",
+    "profilePicture": "/assets/images/bob.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Charlie Brown",
+    "contractType": "Flexi-job",
+    "status": "Inactive",
+    "email": "charlie.brown@example.com",
+    "phone": "345-678-9012",
+    "department": "Animation",
+    "role": "Character",
+    "profilePicture": "/assets/images/charlie.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Diana Prince",
+    "contractType": "Student",
+    "status": "Active",
+    "email": "diana.prince@example.com",
+    "phone": "456-789-0123",
+    "department": "Justice League",
+    "role": "Wonder Woman",
+    "profilePicture": "/assets/images/diana.jpg"
+  }
+]
